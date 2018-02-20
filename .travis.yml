@@ -22,7 +22,7 @@ env:
     EXTRA_VARS='{"role_name":"Rocket.Chat.Ansible","host_name":"localhost"}'
     VERBOSE='-vv'
   - >
-    dist=Fedora
+    dist=fedora
     ver=2x
     container_id=$(mktemp)
     init=/usr/lib/systemd/systemd
